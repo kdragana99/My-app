@@ -1,0 +1,50 @@
+.task.reminder {
+  border-left: 5px solid rgb(0, 255, 110);
+}
+
+.header {
+  margin-bottom: 20px;
+  padding: 2rem;
+  text-shadow: 2px 2px 2px #807b7b
+}
+
+
+.form-control {
+  margin: 20px 0;
+
+}
+.form-control label{
+  padding-bottom: 1rem;
+}
+.form-control input {
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+
+
+.btn:focus {
+  outline: none;
+}
+
+.task {
+  margin: 5px;
+  padding: 10px 20px;
+  box-shadow: 0px 2px 15px #A5A5A5;
+}
+.task h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 1rem;
+}
+.task{
+  background-color: yellowgreen;
+}
+.task:nth-child(2n+1){
+  background-color: yellow;
+}
